@@ -4,6 +4,7 @@ module.exports = {
       'module:metro-react-native-babel-preset',
       {
         unstable_disableES6Transforms: true,
+        runtime: 'classic', // changed automatic to classic
       },
     ],
   ],

@@ -5,11 +5,13 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios --simulator='ios 12 iphone x'",
-    "start": "react-native start",
+    "start": "react-native start --reset-cache",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "pod": "cd ios && pod install && cd .."
   },
   "dependencies": {
+    "@builder/component-library": "file:/Users/damdafayton/Documents/damdafayton/builder/builder-component-library/builder-component-library-1.0.15.tgz",
     "react": "16.9.0",
     "react-native": "0.61.5"
   },
